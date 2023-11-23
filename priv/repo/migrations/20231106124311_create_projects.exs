@@ -6,7 +6,7 @@ defmodule Getaways.Repo.Migrations.CreateProjects do
       add :name, :string
       add :description, :string
       add :creation_date, :date
-      add :user_id, references(:users), null: false
+
       timestamps()
     end
 
